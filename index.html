@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/encriptarDesencriptar.js"></script>
+	<title>Encriptador</title>
+</head>
+<body>
+	<header>
+		<div>
+			<img class="logo" src="imagenes/Logo.png">
+		</div>
+	</header>
+	<main>
+		<div class="divTextoEntrada">
+			<textarea id="textoOriginal" rows="20" cols="85" class="textOriginal" placeholder="Ingrese el texto aquí"></textarea>
+		</div>
+		<div class="divMostrarResultado">
+			<textarea type="text" id="resultado" class="mostrarResultado" rows="20" cols="45" placeholder="Resultado del Encriptado"></textarea>
+			<input type="submit" id="copiar" class="btnCopiar" value="Copiar" onclick="copyOnClick()">
+		</div>
+
+		<input type="submit" id="encriptar" class="btnEncriptar" value="Encriptar" onclick="encriptar()">
+		<input type="submit" id="desencriptar" class="btnDesencriptar" value="Desencriptar" onclick="desencriptar()">
+	</main>
+	<footer>
+		<p class="copyrigth">&#169; Copyright Encriptador Alura - 2023</p>
+	</footer>
+
+
+</body>
+</html>

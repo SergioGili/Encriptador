@@ -1,0 +1,185 @@
+body{
+	background: #F3F5FC;
+}
+
+.logo{
+	display: block;
+	margin: 40px 100px;
+}
+
+.divTextoEntrada{
+	display: block;
+	margin: 80px 300px;
+}
+
+.divMostrarResultado{
+	background: #FFFFFFFF;
+	position: absolute;
+	left: 70%;
+	right: 5%;
+	top: 5%;
+	bottom: 5%;
+	border: 1px solid #0A3871;
+	border-radius: 10px;
+}
+
+.mostrarResultado{
+	margin: 15px 15px;
+	border: none;
+}
+
+.textOriginal{
+	background: #F3F5FC;
+	border: none;
+}
+
+input{
+	width: 20%;
+	border-radius: 24px;
+	font-size: 16px;
+}
+
+.btnEncriptar{
+	position: absolute;
+	top: 80%;
+	left: 20%;
+	right: 80%;
+	bottom: 10%;
+	color: white;
+	background: #0A3871;
+}
+
+.btnDesencriptar{
+	position: absolute;
+	top: 80%;
+	left: 41%;
+	right: 55%;
+	bottom: 10%;
+	background: #F3F5FC;
+	border-color: #0A3871;
+	color: #0A3871;
+}
+
+.btnCopiar{
+	position: relative;
+	top: 30%;
+	left: 35%;
+	right: 50%;
+	bottom: 10%;
+	height: 70px;	
+	width: 155px;
+	border-color: #0A3871;
+	color: #0A3871;
+}
+
+.btnEncriptar:hover{
+    background: #FFFFFFFF;
+    color: black;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.btnDesencriptar:hover{
+    background: #0A3871;
+    color: white;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.btnCopiar:hover{
+	background: #0A3871;
+    color: white;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.copyrigth{
+	position: absolute;
+	top: 98%;
+	left: 48%;
+}
+
+
+@media screen and (max-width:480px){
+	.logo{
+		display: block;
+		margin: 10px 10px;
+	}
+
+	.divTextoEntrada{
+		display: block;
+		margin: 20px 8px;
+		border: .5px solid;
+		width: 95%;
+	}
+
+	.textOriginal{
+		background: #F3F5FC;
+		border: none;
+		width: 98%;
+	}
+
+	.btnEncriptar{
+		position: absolute;
+		top: 50%;
+		left: 15%;
+		right: 80%;
+		bottom: 10%;
+		color: white;
+		background: #0A3871;
+		height: 50px;
+		width: 110px;
+	}
+
+	.btnDesencriptar{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		right: 55%;
+		bottom: 10%;
+		background: #F3F5FC;
+		border-color: #0A3871;
+		color: #0A3871;
+		height: 50px;
+		width: 110px;
+	}
+
+	.divMostrarResultado{
+		background: #FFFFFFFF;
+		position: absolute;
+		top: 60%;
+		left: 5%;
+		right: 80%;
+		bottom: 10%;
+		border: 1px solid #0A3871;
+		border-radius: 10px;
+		width: 90%;
+
+	}
+
+	.mostrarResultado{
+		border: none;
+		margin: 2px;
+		width: 97%;
+		height: 97%;
+	}
+
+	.btnCopiar{
+		position: relative;
+		top: 10%;
+		left: 30%;
+		right: 50%;
+		bottom: 10%;
+		height: 70px;	
+		width: 155px;
+		border-color: #0A3871;
+		color: #0A3871;
+	}
+
+	.copyrigth{
+		position: absolute;
+		top: 105%;
+		left: 15%;
+	}
+
+}
